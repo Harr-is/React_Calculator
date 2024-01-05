@@ -1,0 +1,125 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: #cfce97;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-bottom: solid;
+}
+.header ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  cursor: pointer;
+}
+
+.text {
+  text-decoration: none;
+  color: #f0f0f0;
+}
+.text:hover {
+  color: black;
+}
+.container {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  height: 100vh;
+  flex-direction: column;
+  background-color: #cfce97;
+}
+.calculator_container {
+  display: flex;
+  width: auto;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+}
+.input-container {
+  display: flex;
+  gap: 3%;
+  flex-direction: column;
+  background-color: #f0f0f0;
+  width: 30.5%;
+  height: 78%;
+  padding: 0 1% 1% 1%;
+  border-radius: 0 0 3% 3%;
+}
+.inputs {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 18%;
+  gap: 4%;
+  padding: 0 1%;
+  box-sizing: border-box;
+  /* border: solid; */
+  background-color: #f0f0f0;
+}
+.buttons {
+  width: 20.5%;
+  height: 100%;
+  background: none;
+  background-color: #dce2ea;
+  border: none;
+  border-radius: 69%;
+  box-sizing: content-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 1vw;
+  cursor: pointer;
+}
+.buttons:active {
+  font-size: 0.75vw;
+  background-color: #b1b6bc;
+}
+#Equal {
+  background-color: #738fcf;
+  color: #fcfcfc;
+  font-size: 1.5vw;
+}
+#operator {
+  font-size: 1.5vw;
+}
+#clear {
+  color: #db322a;
+}
+.screens {
+  display: flex;
+  justify-content: flex-end;
+  width: 31.5%;
+  height: 10%;
+  /* border: solid; */
+  font-family: "Poppins", sans-serif;
+  font-size: 2.33vw;
+  line-height: 2.7vw;
+  align-items: center;
+  padding-right: 1%;
+  border-radius: 3% 3% 0 0;
+
+  background-color: #f0f0f0;
+  color: #0f3156;
+}
+#Updating {
+  border-radius: 0;
+}
+.quote {
+  font-size: 2vw;
+  font-weight: 100;
+  margin: 0 10%;
+}
+.author {
+  font-size: 1.5vw;
+  font-weight: 700;
+  font-style: italic;
+  margin: 0 10%;
+}
